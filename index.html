@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Arcana</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #sidebar {
+            width: 300px;
+            height: 600px;
+            border-right: 3px solid black;
+        }
+        #con {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+    <script src="NewSession.js"></script>
+
+
+</head>
+<body style="background: white;">
+<div id="con">
+    <div id="sidebar">
+        <form>
+            <input type="text" id="search">
+            <input type="button" value="Поиск" onclick="SessionCreate()">
+        </form>
+        <div id="sidebar_content"></div>
+    </div>
+    <main id="cc">
+        <div id="content1"></div>
+        <div id="content"></div>
+        <div id="f"></div>
+
+
+    </main>
+</div>
+
+
+
+
+<script src="start.js"></script>
+<script src="Shifrator.js"></script>
+<script src="DeShifrator.js"></script>
+<script src="Session.js"></script>
+
+
+</body>
+</html>
