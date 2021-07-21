@@ -29,17 +29,6 @@ function createWindow () {
 app.whenReady().then(createWindow)
 
 app.on('window-all-closed', () => {
-    // const { Notification } = require('electron')
-    //
-    // function showNotification () {
-    //     const notification = {
-    //         title: 'Basic Notification',
-    //         body: 'Notification from the Main process'
-    //     }
-    //     new Notification(notification).show()
-    // }
-    //
-    // app.whenReady().then(showNotification)
     if (process.platform !== 'darwin') {
 
         app.quit()
