@@ -56,7 +56,6 @@ function Regisration() {
         });
 
 }
-// просто забей
 function Href() {
     window.location.href = 'index.html';
 }
